@@ -1,3 +1,7 @@
+This project focused on creating a travel-focused search engine by collecting and processing Reddit posts from subreddits like "r/travel," "r/japanesetravel," and "r/europetravel." Since Reddit lacks geotagged data, a geotagging process was implemented using a dataset of popular cities and destinations to identify location-specific posts.
+
+The data extraction was performed using the Reddit API (PRAW) in Python, yielding 800 MB of raw data, which was cleaned and deduplicated to 500 MB. The crawling process took two days due to API rate limits. The search engine provides users with relevant travel posts and their associated locations.
+
 Project Demo: https://drive.google.com/file/d/1Fix_T7wRqXD2s0Son3y5iCR0KihDcYy-/view
 
 ![alt text](https://github.com/Chuckoo/IR/blob/main/1.png)
